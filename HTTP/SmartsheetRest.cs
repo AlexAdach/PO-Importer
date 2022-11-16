@@ -21,7 +21,7 @@ namespace PO_Importer
 
         public SmartsheetRest()
         {
-            string authToken = "8Q5PrJfzfYC2WeqHUw5BegZFe3FkO3jvKuIB6";
+            string authToken = "";
             _client = new RestClient(_smartsheetURL)
             {
                 Authenticator = new OAuth2AuthorizationRequestHeaderAuthenticator(authToken, "Bearer")
